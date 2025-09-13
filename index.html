@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ramakanta Rout - Software Test Engineer</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Roboto',sans-serif;line-height:1.6;scroll-behavior:smooth;background:#f5f5f5;color:#500;}
+  a{text-decoration:none;color:inherit;}
+  header{height:90vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;background:#4CAF50;color:white;position:relative;}
+  header h1{font-size:3rem;margin-bottom:10px;}
+  header p{font-size:1.5rem;margin-bottom:20px;}
+  header .btn{padding:12px 25px;margin:5px;font-size:1rem;border-radius:5px;background:blue;color:white;transition:0.3s;font-weight:bold;}
+  header .btn:hover{background:#e0e0e0;}
+  nav{position:sticky;top:0;background:#333;display:flex;justify-content:center;flex-wrap:wrap;z-index:1000;}
+  nav a{padding:14px 20px;color:white;transition:0.3s;}
+  nav a:hover{background:#575757;border-radius:4px;}
+  section{padding:80px 20px;max-width:1000px;margin:auto;}
+  h2{text-align:center;margin-bottom:80px;color:#FF0000;}
+  .about p{text-align:center;max-width:800px;margin:auto;}
+  .skills{display:flex;flex-direction:column;gap:20px;max-width:600px;margin:auto;}
+  .skill{margin-bottom:10px;}
+  .skill-name{font-weight:bold;margin-bottom:5px;}
+  .skill-bar{width:100%;background:#ccc;border-radius:5px;overflow:hidden;}
+  .skill-fill{height:15px;width:0;background:#4CAF50;border-radius:5px;transition:width 2s ease;}
+  .projects{display:flex;flex-wrap:wrap;justify-content:center;gap:20px;}
+  .project-card{background:white;padding:20px;border-radius:10px;width:250px;text-align:center;transition:transform 0.3s,box-shadow 0.3s;cursor:pointer;}
+  .project-card img{width:100%;border-radius:10px;margin-bottom:10px;}
+  .project-card:hover{transform:translateY(-10px);box-shadow:0 10px 20px rgba(0,0,0,0.2);}
+  .contact-form{max-width:500px;margin:auto;display:flex;flex-direction:column;gap:15px;}
+  .contact-form input,.contact-form textarea{padding:10px;border-radius:5px;border:1px solid #ccc;width:100%;}
+  .contact-form button{align-self:center;padding:12px 25px;background:#4CAF50;color:white;border:none;border-radius:5px;font-weight:bold;cursor:pointer;transition:0.3s;}
+  .contact-form button:hover{background:#2E8B57;}
+  .social-icons{text-align:center;margin-top:20px;}
+  .social-icons a{margin:0 10px;font-size:1.5rem;color:#4CAF50;transition:0.3s;}
+  .social-icons a:hover{color:#2E8B57;}
+  footer{background:#333;color:white;text-align:center;padding:20px;}
+  @media(max-width:768px){.projects{flex-direction:column;align-items:center;} header h1{font-size:2rem;} header p{font-size:1rem;} nav a{flex:1 1 50%;text-align:center;}}
+</style>
+</head>
+<body>
+
+<header>
+  <h2><marquee direction="right">WELCOME TO MY WEBSITE</marquee></h2>
+  <h1>MR. RAMAKANTA ROUT</h1>
+  <p>Software Test Engineer</p>
+  <div>
+    <a href="#contact" class="btn">Contact Me</a>
+    <a href="#projects" class="btn">Projects</a>
+  </div>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+  <a href="#certifications">Certifications</a>
+</nav>
+
+<section id="about" class="about">
+  <h2>About Me</h2>
+  <p>Result-oriented Software Test Engineer with 6 years of experience in Manual and Automation Testing, specializing in Java, Selenium WebDriver, TestNG, Maven, and Jenkins. Skilled in designing and executing automated test frameworks, creating robust test cases, and performing functional, regression, and system testing. Proven track record in ensuring software quality in large-scale projects. Adept at collaborating with cross-functional teams to deliver high-quality applications within deadlines.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="skill"><div class="skill-name">Automation Tools: Selenium WebDriver, TestNG, Maven, Jenkins</div><div class="skill-bar"><div class="skill-fill" data-width="90%"></div></div></div>
+    <div class="skill"><div class="skill-name">Programming Languages: Java, SQL (basic), JavaScript (basic)</div><div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div></div>
+    <div class="skill"><div class="skill-name">Testing Types: Functional Testing, Regression Testing, Smoke Testing, System Testing, UAT, API Testing</div><div class="skill-bar"><div class="skill-fill" data-width="90%"></div></div></div>
+    <div class="skill"><div class="skill-name">Defect Tracking Tools: JIRA, HP ALM</div><div class="skill-bar"><div class="skill-fill" data-width="80%"></div></div></div>
+    <div class="skill"><div class="skill-name">Frameworks: Hybrid Framework, POM, Data-Driven, BDD (Cucumber)</div><div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div></div>
+    <div class="skill"><div class="skill-name">Version Control: Git, GitHub</div><div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div></div>
+    <div class="skill"><div class="skill-name">Agile Practices: Scrum, Sprint Planning, Retrospectives</div><div class="skill-bar"><div class="skill-fill" data-width="80%"></div></div></div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+    <a href="#" target="_blank">
+      <div class="project-card">
+                <h3>Project 1</h3>
+        <p>Java Selenium Automation Framework for functional and regression testing.</p>
+      </div>
+    </a>
+ 
+    <a href="#" target="_blank">
+      <div class="project-card">
+        <h3>Project 2</h3>
+        <p>Portfolio Website showcasing testing projects and skills.</p>
+      </div>
+    </a>
+  </div>
+</section>
+
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p style="text-align:center;margin-bottom:20px;">
+    <strong>Mobile:</strong> +91-9007397566 <br>
+    <strong>Email:</strong> <a href="mailto:raut.ramakanta@gmail.com">raut.ramakanta@gmail.com</a>
+  </p>
+  <form class="contact-form" action="https://formspree.io/f/xeoldvoy" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="_replyto" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <div class="social-icons">
+    <a href="mailto:raut.ramakanta@gmail.com"><i class="fas fa-envelope"></i></a>
+    <a href="https://www.linkedin.com/in/ramakanta-rout-b44712184/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
+</section>
+
+
+<footer>
+  &copy; 2025 Ramakanta Rout. All rights reserved.
+</footer>
+
+<script>
+  // Animate skill bars on scroll
+  const skillFills = document.querySelectorAll('.skill-fill');
+  window.addEventListener('scroll', ()=>{
+    skillFills.forEach(bar=>{
+      const top = bar.getBoundingClientRect().top;
+      if(top < window.innerHeight*0.85){
+        bar.style.width = bar.getAttribute('data-width');
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
